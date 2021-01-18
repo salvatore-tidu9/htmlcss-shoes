@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,16 +15,16 @@ body {
 .container {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 nav {
   width: 100%;
   height: 90px;
   position: fixed;
-
 }
 
-.button {
+.circle {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -31,22 +35,31 @@ nav {
   text-align: center;
 }
 
-#btn1 {
+#crcl1 {
   position: absolute;
   top: 0;
   right: 160px;
 }
 
-#btn2 {
+#crcl2 {
   position: absolute;
   top: 0;
   right: 80px;
 }
 
-#btn3 {
+#crcl3 {
   position: absolute;
   top: 0;
-  right:0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.circle:hover {
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
 .section_1 {
@@ -63,7 +76,7 @@ nav {
 
 .section_1, .section_2, .section_3 {
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 img {
@@ -79,7 +92,7 @@ img {
 }
 
 .bottom {
-  transform: translate(800px);
+  transform: translate(850px);
 }
 
 .section_1, .section_2 h1 {
