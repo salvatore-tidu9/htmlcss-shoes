@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+
+}
+
+.button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#btn1 {
+  position: absolute;
+  top: 0;
+  right: 160px;
+}
+
+#btn2 {
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+
+#btn3 {
+  position: absolute;
+  top: 0;
+  right:0;
+}
+
+.section_1 {
+  background-color: red;
+}
+
+.section_2 {
+  background-color: green;
+}
+
+.section_3 {
+  background-color: yellow;
+}
+
+.section_1, .section_2, .section_3 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+img {
+  transform: translate(600px);
+}
+
+.top, .bottom {
+  font-size: 50px;
+}
+
+.top {
+  transform: translate(650px);
+}
+
+.bottom {
+  transform: translate(800px);
+}
+
+.section_1, .section_2 h1 {
+  color: yellow;
+}
+
+.section_3 h1 {
+  color: green;
+}
