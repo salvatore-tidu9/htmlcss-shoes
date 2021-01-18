@@ -93,7 +93,7 @@ img {
   text-align: center;
 }
 
-.section_1, .section_2{
+.section_1, .section_2 h1 {
   color: yellow;
 }
 
